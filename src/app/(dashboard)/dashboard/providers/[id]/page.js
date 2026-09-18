@@ -1814,6 +1814,9 @@ export default function ProviderDetailPage() {
         {providerId === "zed" && !!liveModelsError && (
           <p className="text-xs text-red-500 mb-3 break-words">{liveModelsError}</p>
         )}
+        {providerId === "zed" && !!liveModelsError && (
+          <p className="text-xs text-red-500 mb-3 break-words">{liveModelsError}</p>
+        )}
         {renderModelsSection()}
       </Card>
 
